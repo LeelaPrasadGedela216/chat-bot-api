@@ -670,4 +670,4 @@ async def root():
 
 
 import uvicorn
-uvicorn.run(app, host="localhost", port=8001)
+uvicorn.run(app, host="0.0.0.0", port=8001)
