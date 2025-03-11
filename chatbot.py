@@ -13,7 +13,7 @@ from pydantic import BaseModel
 import google.generativeai as genai
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import SerperDevTool
-from dotenv import load_dotenv()
+from dotenv import load_dotenv
 
 
 load_dotenv()
